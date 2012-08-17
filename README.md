@@ -6,9 +6,9 @@ remote console for safari webviewer to log debug info
 1. Why to use it
 Somtimes when you develop a native app which call webviewer to open certain page or render some ui, you will find some weird thing. Same page works fine on the safari browser but failed on webviewr. You may hope you have some debug tool in this case, or at least, you hope you could log some useful information and output it. This is the case this remote console could be used. 
 
-2. How to use it
-	1). include 'logger.js' in your page. for ex,
-	<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript" SRC="http://hostname:port/logger.js"></SCRIPT>
+2. How to use it<br/>
+	1). include 'logger.js' in your page. for ex,<br/>
+	<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript" SRC="http://hostname:port/logger.js"></SCRIPT><br/>
 	port number could be configured in 'fu.js'.
 	2). using logger.log( message ) in your code
 	3). start log server.
