@@ -1,0 +1,10 @@
+.output
+{
+	position : absolute;
+	top 	 : 30px;
+	left 	 : 30px;
+	width	 : 880px;
+	height	 : 80%;
+	border-style : solid;
+	border-color : black;
+}
