@@ -8,7 +8,7 @@ Somtimes when you develop a native app which call webviewer to open certain page
 
 2. How to use it<br/>
 	1). include 'logger.js' in your page. for ex,<br/>
-	<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript" SRC="http://hostname:port/logger.js"></SCRIPT><br/><br/>
+	<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript" SRC="http://hostname:port/logger.js"></SCRIPT><br/>
 	port number could be configured in 'fu.js'.<br/>
 	2). using logger.log( message ) in your code.<br/>
 	3). start log server.<br/>
