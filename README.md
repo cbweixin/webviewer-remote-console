@@ -3,6 +3,8 @@ webviewer-remote-console
 
 remote console for safari webviewer to log debug info<br/>
 
+this application is inspired by node chat - https://github.com/ry/node_chat, and I directly re-use some code from there.<br/>
+
 1. Why to use it<br/>
 Somtimes when you develop a native app which call webviewer to open certain page or render some ui, you will find some weird thing. Same page works fine on the safari browser but failed on webviewr. You may hope you have some debug tool in this case, or at least, you hope you could log some useful information and output it. This is the case this remote console could be used. 
 
